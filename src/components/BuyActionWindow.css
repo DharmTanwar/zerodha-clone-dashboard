@@ -1,0 +1,106 @@
+/* ================= BUY WINDOW (CHHOTA VERSION) ================= */
+
+.container {
+  --radius: 4px;
+
+  width: 28%;
+  height: 45%;
+  background: rgb(245, 245, 245);
+  position: absolute;
+  bottom: 0;
+  left: 35%; /* same jagah */
+  cursor: move;
+  box-sizing: border-box;
+  z-index: 100;
+  border-radius: var(--radius);
+  border: 1px solid rgb(238, 238, 238);
+}
+
+/* ================= DASHBOARD LAYOUT ================= */
+
+.dashboard-container {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  transition: margin-left 0.3s ease;
+}
+
+.container ~ .content {
+  margin-left: 32%;
+}
+
+/* ================= BUY WINDOW UI ================= */
+
+.regular-order {
+  padding: 14px 22px; /* thoda compact */
+  background-color: #fff;
+  padding-bottom: 24px;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.inputs fieldset {
+  max-width: 110px;
+  border: 0.7px solid #ddd;
+}
+
+.inputs fieldset legend {
+  font-size: 0.75rem;
+  padding: 0 4px;
+}
+
+.inputs fieldset input {
+  border: none;
+  min-height: 32px;
+  padding: 0 10px;
+  font-size: 1rem;
+}
+
+/* ================= BUTTON AREA ================= */
+
+.buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.buttons span {
+  font-size: 0.75rem;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 8px 16px; /* chhote buttons */
+  border-radius: 2px;
+  color: #fff;
+  margin: 0 2px;
+  font-size: 0.85rem;
+}
+
+.btn-blue {
+  background: #4184f3;
+}
+
+.btn-grey {
+  background: #d4d4d4;
+  color: #666;
+}
+
+.btn-blue:hover {
+  background: #74a7fa;
+}
+
+.btn-grey:hover {
+  background: #9b9b9b;
+  color: #fff;
+}
