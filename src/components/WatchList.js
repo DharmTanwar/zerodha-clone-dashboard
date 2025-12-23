@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import  { useState, useContext } from "react";
 import GeneralContext from "./GeneralContext";
 
 import { Tooltip, Grow } from "@mui/material";
@@ -7,7 +7,6 @@ import {
   BarChartOutlined,
   KeyboardArrowDown,
   KeyboardArrowUp,
-  Label,
   MoreHoriz,
 } from "@mui/icons-material";
 

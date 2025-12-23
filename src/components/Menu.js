@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import { Link } from "react-router-dom";
 
@@ -19,7 +19,7 @@ const Menu = () => {
 
   return (
     <div className="menu-container">
-      <img src="logo.png" style={{ width: "50px" }} />
+      <img src="logo.png" alt="menu icon" style={{ width: "50px" }} />
       <div className="menus">
         <ul>
           <li>
